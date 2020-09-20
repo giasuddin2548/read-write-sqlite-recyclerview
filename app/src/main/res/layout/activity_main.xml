@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+
+
+
+    <TextView
+        android:gravity="center"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:text="User Information"
+        android:layout_width="match_parent"
+        android:layout_height="60dp" />
+
+    <View
+        android:background="@color/colorPrimaryDark"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"></View>
+
+    <EditText
+        android:id="@+id/name_id"
+        android:hint="username"
+        android:layout_width="match_parent"
+        android:layout_height="80dp" />
+
+    <EditText
+        android:id="@+id/phone_id"
+        android:hint="phone no"
+        android:layout_width="match_parent"
+        android:layout_height="80dp" />
+
+    <EditText
+        android:id="@+id/image_id"
+        android:hint="Image Link"
+        android:layout_width="match_parent"
+        android:layout_height="80dp" />
+
+    <LinearLayout
+
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btn_submitId"
+            android:text="Submit"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="60dp" />
+
+
+        <Button
+            android:id="@+id/btn_CancelId"
+            android:onClick="View_data"
+            android:text="View Data"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="60dp" />
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>
